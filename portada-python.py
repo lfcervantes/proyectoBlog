@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def url_principal():
-	return render_template("", estudiante="Luis Fernando Hernandez Cervantes")
+	return render_template("portada-inicio.html", estudiante="Luis Fernando Hernandez Cervantes")
 	
 
 if __name__=="__main__":
